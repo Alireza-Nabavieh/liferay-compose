@@ -32,7 +32,7 @@ services:
       - es-data:/usr/share/elasticsearch/data
 
   liferay:
-    image: ibaiborodine/liferay-portal-ce:7.4.1-ga2-jdk8
+    image: ibaiborodine/liferay-portal-ce:7.4.1-ga2-jdk8-buster
     depends_on:
       - mysql
       - elasticsearch
