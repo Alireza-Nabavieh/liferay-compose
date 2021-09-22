@@ -53,7 +53,7 @@ services:
       - lr-data:/opt/liferay/data/document_library
       - ./mnt/liferay/deploy:/opt/liferay/deploy
 
-  volumes:
-    db-data:
-    es-data:
-    lr-data:
+volumes:
+  db-data:
+  es-data:
+  lr-data:
