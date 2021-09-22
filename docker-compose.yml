@@ -14,7 +14,7 @@ services:
       - ./mnt/mysql/initdb.d:/docker-entrypoint-initdb.d
 
   liferay:
-    image: ibaiborodine/liferay-portal-ce
+    image: ibaiborodine/liferay-portal-ce:7.4.1-ga2-jdk8-alpine
     depends_on:
       - mysql
     environment:
